@@ -1,0 +1,13 @@
+cow	12
+chicken	2
+kitten	1
+puppy	6
+piggy	2
+panda	1
+snake	3
+sloth	3
+potato	4
+hamster	5
+chupacabra	1
+elephant	12
+lion	9
