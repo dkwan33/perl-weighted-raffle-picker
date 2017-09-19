@@ -39,7 +39,7 @@ for (my $i = 0; $i < @allFile; $i++) {
     }
 }
 
-my @hat = map {($_->[0]) x $_->[1]} @entries; #pick a number out of the "hat"
+my @hat = map {($_->[0]) x $_->[1]} @entries; #pick a number out of the "hat", need brackets with repetition operator to produce a repeated list (see: https://stackoverflow.com/questions/277485/how-can-i-repeat-a-string-n-times-in-perl)
 print "Total Entries :: " . scalar(@hat) . "\n"; 
 
 my $winner = $hat[rand (scalar @hat)];
