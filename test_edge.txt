@@ -1,0 +1,3 @@
+elephant	2
+lion	2
+edge	1
